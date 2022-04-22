@@ -1,0 +1,3 @@
+C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\Definitions.WitchIsWitch.h
+C:\Dev\WitchIsWitch\WitchIsWitch\Source\WitchIsWitch\WIWPickupable.h
+C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Inc\WitchIsWitch\WIWPickupable.generated.h

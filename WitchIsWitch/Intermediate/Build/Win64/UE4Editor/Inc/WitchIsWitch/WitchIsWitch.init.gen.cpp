@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeWitchIsWitch_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xCDE2D9F1,
-				0x52F8B825,
+				0xCC97EC74,
+				0xC48FBFAC,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
