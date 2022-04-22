@@ -23,9 +23,11 @@ void AWIWPlayerController::OnInteractPressed()
 {
 	if (HoveredActor != nullptr && HoveredActor->GetClass()->ImplementsInterface(UWIWInteractable::StaticClass()))
 	{
+		//IWIWInteractable::Execute_Interact(HoveredActor.Get());
 	}
 	else if (HoveredActor != nullptr && HoveredActor->GetClass()->ImplementsInterface(UWIWPickupable::StaticClass()))
 	{
+		IWIWPickupable::Execute_Pickup(HoveredActor.Get());
 
 	}
 }

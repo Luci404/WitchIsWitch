@@ -17,6 +17,8 @@ class WITCHISWITCH_API AWIWItem : public AActor, public IWIWPickupable
 public:	
 	AWIWItem();
 
+	void Pickup_Implementation();
+
 public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UStaticMeshComponent* Mesh;

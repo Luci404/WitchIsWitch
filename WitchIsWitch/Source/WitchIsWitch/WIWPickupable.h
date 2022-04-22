@@ -14,5 +14,5 @@ class WITCHISWITCH_API IWIWPickupable
 
 public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-	bool Pickup();
+	void Pickup(); 
 };
