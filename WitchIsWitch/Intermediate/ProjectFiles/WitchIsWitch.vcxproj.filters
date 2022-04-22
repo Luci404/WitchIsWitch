@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\WitchIsWitch.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6DE422C3-B36C-4C77-B490-F65C156901E1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WitchIsWitch.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\WitchIsWitchEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B250C340-FA48-464B-BDCB-55489E93BBBC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\WitchIsWitch">
+      <UniqueIdentifier>{C344472B-346B-4D2B-B424-F2C9CF3E45DA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WitchIsWitch\WitchIsWitch.Build.cs">
+      <Filter>Source\WitchIsWitch</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\WitchIsWitch\WitchIsWitch.cpp">
+      <Filter>Source\WitchIsWitch</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WitchIsWitch\WitchIsWitch.h">
+      <Filter>Source\WitchIsWitch</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WitchIsWitch\WitchIsWitchGameModeBase.cpp">
+      <Filter>Source\WitchIsWitch</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WitchIsWitch\WitchIsWitchGameModeBase.h">
+      <Filter>Source\WitchIsWitch</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
