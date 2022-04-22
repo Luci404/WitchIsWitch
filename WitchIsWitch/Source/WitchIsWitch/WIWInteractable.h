@@ -2,8 +2,10 @@
 
 #include "WIWInteractable.generated.h"
 
-UINTERFACE(MinimalAPI, Blueprintable)
-class UWIWInteractable : public UInterface
+class AWIWCharacter;
+
+UINTERFACE(BlueprintType)
+class WITCHISWITCH_API UWIWInteractable : public UInterface
 {
 	GENERATED_BODY()
 };
@@ -13,5 +15,6 @@ class IWIWInteractable
 	GENERATED_BODY()
 
 public:
-	// void Interact();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void Interact(AWIWCharacter* interactor);
 };
