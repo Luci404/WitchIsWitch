@@ -1,0 +1,8 @@
+C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\Definitions.WitchIsWitch.h
+C:\Dev\WitchIsWitch\WitchIsWitch\Source\WitchIsWitch\WIWHUD.h
+C:\Epic\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Epic\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Epic\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Inc\WitchIsWitch\WIWHUD.generated.h

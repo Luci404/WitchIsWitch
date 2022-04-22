@@ -36,7 +36,7 @@ public: \
 
 #define WitchIsWitch_Source_WitchIsWitch_WIWGameMode_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AWIWGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AWIWGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AWIWGameMode) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AWIWGameMode); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AWIWGameMode); \
@@ -48,8 +48,6 @@ public:
 
 
 #define WitchIsWitch_Source_WitchIsWitch_WIWGameMode_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AWIWGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AWIWGameMode(AWIWGameMode&&); \
@@ -57,7 +55,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AWIWGameMode); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AWIWGameMode); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AWIWGameMode)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AWIWGameMode)
 
 
 #define WitchIsWitch_Source_WitchIsWitch_WIWGameMode_h_15_PRIVATE_PROPERTY_OFFSET

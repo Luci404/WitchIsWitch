@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\WitchIsWitch.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6B88E630-66E5-4F65-A5EA-AA2FCB0FC47E}</UniqueIdentifier>
+      <UniqueIdentifier>{95647C74-E3B9-490B-B414-DA4291D7E783}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\WitchIsWitch.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8461AC16-36FD-4744-84B4-6128E3D9D285}</UniqueIdentifier>
+      <UniqueIdentifier>{6C8347B2-6C2A-4F55-9E47-346C179E5992}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\WitchIsWitch">
-      <UniqueIdentifier>{B71E7C8E-0F7B-4B6A-ABF6-BE4ECBBAA8AF}</UniqueIdentifier>
+      <UniqueIdentifier>{3BB6B0D0-0F4D-4D2D-A8AC-B42AE80FF614}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\WitchIsWitch\WitchIsWitch.Build.cs">
       <Filter>Source\WitchIsWitch</Filter>
@@ -59,10 +59,22 @@
     <ClInclude Include="..\..\Source\WitchIsWitch\WIWGameMode.h">
       <Filter>Source\WitchIsWitch</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\WitchIsWitch\WIWHUD.cpp">
+      <Filter>Source\WitchIsWitch</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WitchIsWitch\WIWHUD.h">
+      <Filter>Source\WitchIsWitch</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\WitchIsWitch\WIWInteractable.cpp">
       <Filter>Source\WitchIsWitch</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\WitchIsWitch\WIWInteractable.h">
+      <Filter>Source\WitchIsWitch</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WitchIsWitch\WIWOverlay.cpp">
+      <Filter>Source\WitchIsWitch</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WitchIsWitch\WIWOverlay.h">
       <Filter>Source\WitchIsWitch</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\WitchIsWitch\WIWPlayerController.cpp">

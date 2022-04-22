@@ -12,6 +12,9 @@
 UCLASS()
 class WITCHISWITCH_API AWIWGameMode : public AGameMode
 {
-	GENERATED_BODY()
-	
+	GENERATED_BODY()	
+
+public:
+	AWIWGameMode();
+
 };

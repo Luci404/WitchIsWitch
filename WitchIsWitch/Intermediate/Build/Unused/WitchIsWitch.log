@@ -1,18 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\WitchIsWitch).
   Building WitchIsWitchEditor...
   Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 10 actions with 24 processes...
-    [1/10] WIWGameInstance.cpp
-    [2/10] WIWPlayerController.cpp
-    [3/10] WitchIsWitch.init.gen.cpp
-    [4/10] WIWGameMode.cpp
-    [5/10] WIWGameInstance.gen.cpp
-    [6/10] WIWPlayerController.gen.cpp
-    [7/10] WIWGameMode.gen.cpp
-    [8/10] UE4Editor-WitchIsWitch.lib
+  Building 6 actions with 24 processes...
+    [1/6] WitchIsWitch.init.gen.cpp
+    [2/6] WIWOverlay.cpp
+    [3/6] WIWOverlay.gen.cpp
+    [4/6] UE4Editor-WitchIsWitch.lib
        Creating library C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\UE4Editor-WitchIsWitch.lib and object C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\UE4Editor-WitchIsWitch.exp
-    [9/10] UE4Editor-WitchIsWitch.dll
+    [5/6] UE4Editor-WitchIsWitch.dll
        Creating library C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\UE4Editor-WitchIsWitch.suppressed.lib and object C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\UE4Editor-WitchIsWitch.suppressed.exp
-    [10/10] WitchIsWitchEditor.target
-  Total time in Parallel executor: 1,35 seconds
-  Total execution time: 1,72 seconds
+    [6/6] WitchIsWitchEditor.target
+  Total time in Parallel executor: 2,70 seconds
+  Total execution time: 3,10 seconds

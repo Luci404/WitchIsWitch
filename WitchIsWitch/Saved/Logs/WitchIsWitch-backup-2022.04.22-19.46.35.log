@@ -1,0 +1,923 @@
+﻿Log file open, 04/22/22 21:40:00
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: WitchIsWitch
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 71 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.452434
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cleaning working directory: C:/Users/studentuser/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz, GPU: NVIDIA Quadro RTX 5000
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.04.22-19.40.00:597][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.04.22-19.40.00:597][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.04.22-19.40.00:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Engine.ini]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Engine.ini]
+[2022.04.22-19.40.00:598][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Engine.ini]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Engine.ini]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.04.22-19.40.00:598][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.04.22-19.40.00:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Engine.ini]
+[2022.04.22-19.40.00:599][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Engine.ini]
+[2022.04.22-19.40.00:617][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:617][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.04.22-19.40.00:617][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.04.22-19.40.00:618][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.04.22-19.40.00:619][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.04.22-19.40.00:620][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.04.22-19.40.00:621][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.04.22-19.40.00:622][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.04.22-19.40.00:623][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.04.22-19.40.00:623][  0]LogInit: Selected Device Profile: [Windows]
+[2022.04.22-19.40.00:623][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.04.22-19.40.00:623][  0]LogHAL: Display: Platform has ~ 64 GB [68500574208 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.04.22-19.40.00:623][  0]LogInit: Going up to parent DeviceProfile []
+[2022.04.22-19.40.00:623][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:623][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.04.22-19.40.00:623][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.04.22-19.40.00:623][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:623][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.04.22-19.40.00:623][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:623][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.04.22-19.40.00:623][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.04.22-19.40.00:623][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.04.22-19.40.00:623][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.04.22-19.40.00:623][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.04.22-19.40.00:623][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.04.22-19.40.00:624][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.04.22-19.40.00:625][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.04.22-19.40.00:626][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Scalability.ini]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.04.22-19.40.00:627][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.04.22-19.40.00:628][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.04.22-19.40.00:628][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.04.22-19.40.00:628][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.04.22-19.40.00:628][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Engine.ini]
+[2022.04.22-19.40.00:628][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Config/Windows/Editor.ini]
+[2022.04.22-19.40.00:628][  0]LogInit: Computer: Z4E-022
+[2022.04.22-19.40.00:628][  0]LogInit: User: studentuser
+[2022.04.22-19.40.00:628][  0]LogInit: CPU Page size=4096, Cores=12
+[2022.04.22-19.40.00:628][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.04.22-19.40.00:628][  0]LogMemory: Memory total: Physical=63.8GB (64GB approx)
+[2022.04.22-19.40.00:628][  0]LogMemory: Platform Memory Stats for Windows
+[2022.04.22-19.40.00:628][  0]LogMemory: Process Physical Memory: 138.57 MB used, 138.58 MB peak
+[2022.04.22-19.40.00:628][  0]LogMemory: Process Virtual Memory: 114.09 MB used, 114.09 MB peak
+[2022.04.22-19.40.00:628][  0]LogMemory: Physical Memory: 7127.10 MB used,  58200.14 MB free, 65327.24 MB total
+[2022.04.22-19.40.00:629][  0]LogMemory: Virtual Memory: 134152080.00 MB used,  65648.47 MB free, 134217728.00 MB total
+[2022.04.22-19.40.00:634][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.04.22-19.40.00:759][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.04.22-19.40.00:760][  0]LogInit: Using OS detected language (en-US).
+[2022.04.22-19.40.00:760][  0]LogInit: Using OS detected locale (da-DK).
+[2022.04.22-19.40.00:765][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.04.22-19.40.00:948][  0]LogInit: Setting process to per monitor DPI aware
+[2022.04.22-19.40.00:967][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.22-19.40.00:990][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.04.22-19.40.00:990][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.04.22-19.40.01:095][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.04.22-19.40.01:095][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.04.22-19.40.01:095][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.04.22-19.40.01:095][  0]LogD3D11RHI: D3D11 adapters:
+[2022.04.22-19.40.01:209][  0]LogD3D11RHI:    0. 'NVIDIA Quadro RTX 5000' (Feature Level 11_0)
+[2022.04.22-19.40.01:209][  0]LogD3D11RHI:       16170/0/32663 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.04.22-19.40.01:213][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.04.22-19.40.01:213][  0]LogD3D11RHI:       0/0/32663 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.04.22-19.40.01:213][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.04.22-19.40.01:218][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.04.22-19.40.01:219][  0]LogD3D11RHI:     GPU DeviceId: 0x1eb0 (for the marketing name, search the web for "GPU Device Id")
+[2022.04.22-19.40.01:219][  0]LogWindows: EnumDisplayDevices:
+[2022.04.22-19.40.01:219][  0]LogWindows:    0. 'NVIDIA Quadro RTX 5000' (P:1 D:1)
+[2022.04.22-19.40.01:219][  0]LogWindows:    1. 'NVIDIA Quadro RTX 5000' (P:0 D:1)
+[2022.04.22-19.40.01:220][  0]LogWindows:    2. 'NVIDIA Quadro RTX 5000' (P:0 D:0)
+[2022.04.22-19.40.01:220][  0]LogWindows:    3. 'NVIDIA Quadro RTX 5000' (P:0 D:0)
+[2022.04.22-19.40.01:220][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.04.22-19.40.01:220][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro RTX 5000
+[2022.04.22-19.40.01:220][  0]LogD3D11RHI:   Driver Version: 462.96 (internal:27.21.14.6296, unified:462.96)
+[2022.04.22-19.40.01:220][  0]LogD3D11RHI:      Driver Date: 7-2-2021
+[2022.04.22-19.40.01:220][  0]LogRHI: Texture pool is 11319 MB (70% of 16170 MB)
+[2022.04.22-19.40.01:303][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.04.22-19.40.01:303][  0]LogD3D11RHI: Async texture creation enabled
+[2022.04.22-19.40.01:304][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.04.22-19.40.01:318][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.04.22-19.40.01:322][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.04.22-19.40.01:576][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.04.22-19.40.01:594][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.04.22-19.40.01:594][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.04.22-19.40.01:594][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.04.22-19.40.01:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.04.22-19.40.01:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.04.22-19.40.01:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.04.22-19.40.01:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.04.22-19.40.01:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.04.22-19.40.01:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.04.22-19.40.01:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.04.22-19.40.01:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.04.22-19.40.01:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.04.22-19.40.01:628][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.04.22-19.40.01:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.04.22-19.40.01:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.04.22-19.40.01:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.04.22-19.40.01:687][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.04.22-19.40.01:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.04.22-19.40.01:705][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.04.22-19.40.01:727][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.04.22-19.40.01:727][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.04.22-19.40.01:741][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.04.22-19.40.01:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.04.22-19.40.01:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.04.22-19.40.01:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.04.22-19.40.01:781][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.04.22-19.40.01:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.04.22-19.40.01:790][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.04.22-19.40.01:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.04.22-19.40.01:808][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.04.22-19.40.01:817][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.04.22-19.40.01:817][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.04.22-19.40.01:844][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.04.22-19.40.01:931][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.04.22-19.40.01:931][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../Dev/WitchIsWitch/WitchIsWitch/Intermediate/Shaders/WorkingDirectory/9612/).
+[2022.04.22-19.40.01:931][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentuser/AppData/Local/Temp/UnrealShaderWorkingDir/5E63DF75459A04146C76D996F63D95D9/'.
+[2022.04.22-19.40.01:932][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.04.22-19.40.01:932][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.04.22-19.40.02:609][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.04.22-19.40.02:656][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2022.04.22-19.40.02:656][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/studentuser/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2022.04.22-19.40.02:656][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Dev/WitchIsWitch/WitchIsWitch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.04.22-19.40.02:656][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.04.22-19.40.02:656][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Dev/WitchIsWitch/WitchIsWitch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.04.22-19.40.02:656][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.04.22-19.40.02:666][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.04.22-19.40.02:666][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.04.22-19.40.02:666][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.04.22-19.40.02:672][  0]LogDerivedDataCache: Speed tests for C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2022.04.22-19.40.02:672][  0]LogDerivedDataCache: Display: Performance to C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=1433.60MBs, RandomWriteSpeed=228.76MBs. Assigned SpeedClass 'Local'
+[2022.04.22-19.40.02:674][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentuser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.04.22-19.40.02:674][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.04.22-19.40.02:674][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.04.22-19.40.02:714][  0]LogSlate: Using FreeType 2.10.0
+[2022.04.22-19.40.02:715][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.04.22-19.40.02:737][  0]LogAssetRegistry: FAssetRegistry took 0.0042 seconds to start up
+[2022.04.22-19.40.02:939][  0]LogInit: Selected Device Profile: [Windows]
+[2022.04.22-19.40.02:939][  0]LogInit: Active device profile: [000001D5A96B1A00][000001D5A8544700 49] Windows
+[2022.04.22-19.40.02:939][  0]LogInit: Profiles: [000001D5A96B1A00][000001D5A8544700 49] Windows, [000001D5A968DF00][000001D5A856C880 49] WindowsNoEditor, [000001D5A96B3400][000001D5A8570A00 49] WindowsServer, [000001D5A968CF00][000001D5A8574B80 49] WindowsClient, [000001D5A96B1000][000001D5A8578D00 49] IOS, [000001D5A968F100][000001D5A857CE80 49] iPadAir, [000001D5A96B3100][000001D5A8581000 49] iPadAir2, [000001D5A963A900][000001D5A85B52C0 49] IPadPro, [000001D5A963AA00][000001D5A85B1300 49] iPadAir3, [000001D5A96B1B00][000001D5A85B9480 49] iPadAir4, [000001D5A963BF00][000001D5A85695C0 49] iPadMini2, [000001D5A96B0C00][000001D5A85BD700 49] iPadMini3, [000001D5A9639A00][000001D5A85C1840 49] iPadMini4, [000001D5A96B2000][000001D5A85C99C0 49] iPadMini5, [000001D5A9682200][000001D5A85D1C80 49] iPhone6, [000001D5A9682300][000001D5A85CDCC0 49] iPodTouch6, [000001D5A968C200][000001D5A85D82C0 49] iPhone7, [000001D5A968C400][000001D5A85D4300 49] iPodTouch7, [000001D5A9683900][000001D5A85DC480 49] iPhone5S, [000001D5A968E200][000001D5A85E0600 49] iPhone6Plus, [000001D5A9681800][000001D5A85E4780 49] iPhone6S, [000001D5A968FA00][000001D5A85E8900 49] iPhone6SPlus, [000001D5A9680900][000001D5A85ECA80 49] iPhone7Plus, [000001D5A968D400][000001D5A85F0C00 49] iPhoneSE, [000001D5A9683500][000001D5A85F4D80 49] iPhone8, [000001D5A968EC00][000001D5A85F8F00 49] iPhone8Plus, [000001D5A9682F00][000001D5A85FD080 49] iPhoneX, [000001D5A968D900][000001D5A8601200 49] iPhoneXS, [000001D5A9682900][000001D5A8605380 49] iPhoneXSMax, [000001D5A968EA00][000001D5A8609500 49] iPhoneXR, [000001D5A9683A00][000001D5A85C5640 49] iPhone11, [000001D5A968D600][000001D5A860D780 49] iPhone11Pro, [000001D5A9682C00][000001D5A86118C0 49] iPhone11ProMax, [000001D5A968D300][000001D5A8615A00 49] iPhoneSE2, [000001D5A9680700][000001D5A861DB80 49] iPhone12Mini, [000001D5A968D000][000001D5A8621D00 49] iPhone12, [000001D5A9680600][000001D5A86241C0 49] iPhone12Pro, [000001D5A9683100][000001D5A8628340 49] iPhone12ProMax, [000001D5A96B0500][000001D5A862C4C0 49] iPadPro105, [000001D5A9683C00][000001D5A8630640 49] iPadPro129, [000001D5A96B3D00][000001D5A86347C0 49] iPadPro97, [000001D5A9680C00][000001D5A8638940 49] iPadPro2_129, [000001D5A96B3F00][000001D5A863CAC0 49] iPad5, [000001D5A9681F00][000001D5A8640C40 49] iPad6, [000001D5A968EF00][000001D5A8644DC0 49] iPad7, [000001D5A9681E00][000001D5A8648F40 49] iPad8, [000001D5A968CD00][000001D5A864D0C0 49] iPadPro11, [000001D5A9680A00][000001D5A8651240 49] iPadPro2_11, [000001D5A968DA00][000001D5A86553C0 49] iPadPro3_129, [000001D5A9683700][000001D5A8659540 49] iPadPro4_129, [000001D5A968F200][000001D5A8619680 49] AppleTV, [000001D5A9683000][000001D5A865D7C0 49] AppleTV4K, [000001D5A968EB00][000001D5A8661900 49] TVOS, [000001D5A9682800][000001D5A8665A40 49] Mac, [000001D5A968E300][000001D5A866DBC0 49] MacClient, [000001D5A9680800][000001D5A8671D40 49] MacNoEditor, [000001D5A968E500][000001D5A8674200 49] MacServer, [000001D5A9680400][000001D5A8678380 49] Linux, [000001D5A968CB00][000001D5A867C500 49] LinuxAArch64, [000001D5A9682600][000001D5A8680680 49] LinuxNoEditor, [000001D5A968D700][000001D5A8684800 49] LinuxAArch64NoEditor, [000001D5A9683D00][000001D5A8688980 49] LinuxClient, [000001D5A968ED00][000001D5A868CB00 49] LinuxAArch64Client, [000001D5A9680D00][000001D5A8690C80 49] LinuxServer, [000001D5A968D500][000001D5A8694E00 49] LinuxAArch64Server, [000001D5A9682B00][000001D5A8698F80 49] Android, [000001D5A968FD00][000001D5A869D100 49] Android_Low, [000001D5A9682400][000001D5A86A1280 49] Android_Mid, [000001D5A968C900][000001D5A86A5400 49] Android_High, [000001D5A9683F00][000001D5A86A9580 49] Android_Default, [000001D5A968C100][000001D5A86AD700 49] Android_Adreno4xx, [000001D5A9681400][000001D5A8669840 49] Android_Adreno5xx_Low, [000001D5A968CC00][000001D5A86B1980 49] Android_Adreno5xx, [000001D5A9680F00][000001D5A86B5AC0 49] Android_Adreno6xx, [000001D5A968DD00][000001D5A86BDC40 49] Android_Adreno6xx_Vulkan, [000001D5A9682A00][000001D5A96D0100 49] Android_Mali_T6xx, [000001D5A968C300][000001D5A96D4280 49] Android_Mali_T7xx, [000001D5A9681600][000001D5A96D8400 49] Android_Mali_T8xx, [000001D5A968F300][000001D5A96DC580 49] Android_Mali_G71, [000001D5A9680300][000001D5A96E0700 49] Android_Mali_G72, [000001D5A968FC00][000001D5A96E4880 49] Android_Mali_G72_Vulkan, [000001D5A9681500][000001D5A96E8A00 49] Android_Mali_G76, [000001D5A968F700][000001D5A96ECB80 49] Android_Mali_G76_Vulkan, [000001D5A9680200][000001D5A96F0D00 49] Android_Mali_G77, [000001D5A968C800][000001D5A96F4E80 49] Android_Mali_G77_Vulkan, [000001D5A9682D00][000001D5A96F9000 49] Android_Vulkan_SM5, [000001D5A96B1400][000001D5A96FD180 49] Android_PowerVR_G6xxx, [000001D5A9638700][000001D5A9701300 49] Android_PowerVR_GT7xxx, [000001D5A96B3700][000001D5A9705480 49] Android_PowerVR_GE8xxx, [000001D5A9639900][000001D5A9709600 49] Android_PowerVR_GM9xxx, [000001D5A96B2E00][000001D5A970D780 49] Android_PowerVR_GM9xxx_Vulkan, [000001D5A9639000][000001D5A86B98C0 49] Android_TegraK1, [000001D5A96B0800][000001D5A9711A00 49] Android_Unknown_Vulkan, [000001D5A9638600][000001D5A9715B40 49] Lumin, [000001D5A96B1700][000001D5A971DCC0 49] Lumin_Desktop, [000001D5A9639F00][000001D5A9720180 49] HoloLens, 
+[2022.04.22-19.40.03:042][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.04.22-19.40.03:042][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.04.22-19.40.03:042][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.04.22-19.40.03:043][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.04.22-19.40.03:043][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.04.22-19.40.03:064][  0]LogNetVersion: WitchIsWitch 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3913933595)
+[2022.04.22-19.40.03:119][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uasset'.
+[2022.04.22-19.40.03:119][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uasset'.
+[2022.04.22-19.40.03:119][  0]LogUObjectGlobals: Warning: Failed to find object 'MaterialInterface /Engine/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.m_SimpleVolumetricCloud_Inst'
+[2022.04.22-19.40.03:119][  0]Error: CDO Constructor (VolumetricCloudComponent): Failed to find /Engine/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.m_SimpleVolumetricCloud_Inst
+
+[2022.04.22-19.40.03:333][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorMeshes/EditorSkySphere.uasset'.
+[2022.04.22-19.40.03:333][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorMeshes/EditorSkySphere.uasset'.
+[2022.04.22-19.40.03:333][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/EditorMeshes/EditorSkySphere.EditorSkySphere'
+[2022.04.22-19.40.03:333][  0]Error: CDO Constructor (ThumbnailManager): Failed to find /Engine/EditorMeshes/EditorSkySphere
+
+[2022.04.22-19.40.03:387][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.04.22-19.40.03:387][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2022.04.22-19.40.03:388][  0]LogUObjectBase: Warning: Error: CDO Constructor (VolumetricCloudComponent): Failed to find /Engine/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.m_SimpleVolumetricCloud_Inst
+
+[2022.04.22-19.40.03:388][  0]LogUObjectBase: Warning: Error: CDO Constructor (ThumbnailManager): Failed to find /Engine/EditorMeshes/EditorSkySphere
+
+[2022.04.22-19.40.05:375][  0]Message dialog closed, result: Ok, title: Message, text: Default Property warnings and errors:
+Error: CDO Constructor (VolumetricCloudComponent): Failed to find /Engine/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.m_SimpleVolumetricCloud_Inst
+
+Error: CDO Constructor (ThumbnailManager): Failed to find /Engine/EditorMeshes/EditorSkySphere
+
+
+[2022.04.22-19.40.05:416][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.040561 seconds
+[2022.04.22-19.40.05:422][  0]LogUObjectArray: 16711 objects as part of root set at end of initial load.
+[2022.04.22-19.40.05:422][  0]LogUObjectAllocator: 4165744 out of 0 bytes used by permanent object pool.
+[2022.04.22-19.40.05:422][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.04.22-19.40.05:811][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.04.22-19.40.05:827][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.04.22-19.40.06:001][  0]SourceControl: Source control is disabled
+[2022.04.22-19.40.06:001][  0]SourceControl: Source control is disabled
+[2022.04.22-19.40.06:005][  0]SourceControl: Source control is disabled
+[2022.04.22-19.40.06:009][  0]SourceControl: Source control is disabled
+[2022.04.22-19.40.06:017][  0]SourceControl: Source control is disabled
+[2022.04.22-19.40.06:039][  0]LogUProjectInfo: Found projects:
+[2022.04.22-19.40.06:228][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.04.22-19.40.06:251][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.04.22-19.40.06:251][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.04.22-19.40.06:308][  0]LogCollectionManager: Loaded 0 collections in 0.001316 seconds
+[2022.04.22-19.40.06:335][  0]LogFileCache: Scanning file cache for directory 'C:/Dev/WitchIsWitch/WitchIsWitch/Saved/Collections/' took 0.00s
+[2022.04.22-19.40.06:336][  0]LogFileCache: Scanning file cache for directory 'C:/Dev/WitchIsWitch/WitchIsWitch/Content/Developers/studentuser/Collections/' took 0.00s
+[2022.04.22-19.40.06:336][  0]LogFileCache: Scanning file cache for directory 'C:/Dev/WitchIsWitch/WitchIsWitch/Content/Collections/' took 0.00s
+[2022.04.22-19.40.06:336][  0]LogOcInput: OculusInput pre-init called
+[2022.04.22-19.40.06:349][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.04.22-19.40.06:349][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.04.22-19.40.06:408][  0]LogEngine: Initializing Engine...
+[2022.04.22-19.40.06:409][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.04.22-19.40.06:409][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.04.22-19.40.06:410][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.04.22-19.40.06:507][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.04.22-19.40.06:515][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.04.22-19.40.06:528][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.04.22-19.40.06:533][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.04.22-19.40.06:533][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.04.22-19.40.06:533][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.22-19.40.06:533][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.22-19.40.06:533][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.22-19.40.06:533][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.22-19.40.06:533][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.22-19.40.06:533][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.22-19.40.06:534][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.22-19.40.06:534][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.22-19.40.06:534][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.22-19.40.06:534][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.22-19.40.06:548][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.22-19.40.06:548][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.04.22-19.40.06:607][  0]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek High Definition Audio)
+[2022.04.22-19.40.06:610][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.22-19.40.06:611][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.22-19.40.06:612][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.22-19.40.06:612][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.22-19.40.06:613][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.22-19.40.06:613][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.22-19.40.06:614][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.22-19.40.06:614][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.22-19.40.06:614][  0]LogInit: FAudioDevice initialized.
+[2022.04.22-19.40.06:615][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.04.22-19.40.06:615][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.04.22-19.40.06:652][  0]LogDerivedDataCache: Saved boot cache 0.04s 76MB C:/Users/studentuser/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2022.04.22-19.40.06:655][  0]LogInit: Texture streaming: Enabled
+[2022.04.22-19.40.06:668][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2022.04.22-19.40.06:672][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.04.22-19.40.06:672][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.04.22-19.40.06:673][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.04.22-19.40.06:683][  0]LogLiveCoding: Display: Starting LiveCoding
+[2022.04.22-19.40.06:684][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: WitchIsWitchEditor Win64 Development
+[2022.04.22-19.40.07:159][  0]LogLiveCoding: Display: First instance in process group "UE4_WitchIsWitch_0xdcc21a70", spawning console
+[2022.04.22-19.40.07:160][  0]LogLiveCoding: Display: Waiting for server
+[2022.04.22-19.40.07:160][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.04.22-19.40.07:167][  0]LogInit: Transaction tracking system initialized
+[2022.04.22-19.40.07:191][  0]BlueprintLog: New page: Editor Load
+[2022.04.22-19.40.07:268][  0]LocalizationService: Localization service is disabled
+[2022.04.22-19.40.07:295][  0]TimingProfiler: Initialize
+[2022.04.22-19.40.07:295][  0]TimingProfiler: OnSessionChanged
+[2022.04.22-19.40.07:295][  0]LoadingProfiler: Initialize
+[2022.04.22-19.40.07:295][  0]LoadingProfiler: OnSessionChanged
+[2022.04.22-19.40.07:295][  0]NetworkingProfiler: Initialize
+[2022.04.22-19.40.07:295][  0]NetworkingProfiler: OnSessionChanged
+[2022.04.22-19.40.07:296][  0]MemoryProfiler: Initialize
+[2022.04.22-19.40.07:296][  0]MemoryProfiler: OnSessionChanged
+[2022.04.22-19.40.07:393][  0]LogLinker: Warning: Error opening file '../../../Engine/Content/EditorMeshes/EditorSkySphere.uasset'.
+[2022.04.22-19.40.07:416][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.04.22-19.40.07:416][  0]LogFileCache: Scanning file cache for directory 'C:/Dev/WitchIsWitch/WitchIsWitch/Content/' took 0.00s
+[2022.04.22-19.40.07:416][  0]LogCook: Display: Mobile HDR setting 1
+[2022.04.22-19.40.07:706][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.04.22-19.40.07:709][  0]SourceControl: Source control is disabled
+[2022.04.22-19.40.07:709][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.219
+[2022.04.22-19.40.07:709][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.04.22-19.40.07:709][  0]LightingResults: New page: Lighting Build
+[2022.04.22-19.40.07:710][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.04.22-19.40.07:710][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.22-19.40.07:710][  0]MapCheck: New page: Map Check
+[2022.04.22-19.40.07:710][  0]LightingResults: New page: Lighting Build
+[2022.04.22-19.40.07:717][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.04.22-19.40.07:761][  0]LogTexture: Display: Building textures: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.04.22-19.40.07:766][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2022.04.22-19.40.07:767][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2022.04.22-19.40.07:776][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.04.22-19.40.07:781][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.04.22-19.40.07:782][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.04.22-19.40.07:782][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,148ms to complete.
+[2022.04.22-19.40.07:782][  0]LogFileHelpers: Loading map 'Template_Default' took 0.074
+[2022.04.22-19.40.07:784][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.295
+[2022.04.22-19.40.07:916][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.22-19.40.07:921][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.22-19.40.07:926][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.22-19.40.07:930][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.22-19.40.07:942][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0082 seconds. Added 3607 classes and 861 folders.
+[2022.04.22-19.40.07:945][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.04.22-19.40.07:946][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.04.22-19.40.07:946][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:946][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.04.22-19.40.07:946][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2022.04.22-19.40.07:947][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.04.22-19.40.07:947][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:947][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.04.22-19.40.07:947][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2022.04.22-19.40.07:947][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2022.04.22-19.40.07:947][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:948][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2022.04.22-19.40.07:948][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2022.04.22-19.40.07:948][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.22-19.40.07:948][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:948][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.04.22-19.40.07:948][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2022.04.22-19.40.07:949][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.04.22-19.40.07:949][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:949][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.04.22-19.40.07:949][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2022.04.22-19.40.07:949][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.04.22-19.40.07:949][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:949][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.04.22-19.40.07:950][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2022.04.22-19.40.07:950][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.04.22-19.40.07:950][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:950][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.04.22-19.40.07:950][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2022.04.22-19.40.07:951][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.04.22-19.40.07:951][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:951][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.04.22-19.40.07:951][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2022.04.22-19.40.07:951][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.04.22-19.40.07:951][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:951][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.04.22-19.40.07:952][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2022.04.22-19.40.07:952][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.04.22-19.40.07:952][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:952][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.04.22-19.40.07:952][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2022.04.22-19.40.07:953][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.04.22-19.40.07:953][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:953][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.04.22-19.40.07:953][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2022.04.22-19.40.07:953][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.04.22-19.40.07:953][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:953][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.04.22-19.40.07:953][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2022.04.22-19.40.07:954][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.22-19.40.07:954][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:954][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.04.22-19.40.07:954][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2022.04.22-19.40.07:955][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.04.22-19.40.07:955][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:955][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.04.22-19.40.07:955][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2022.04.22-19.40.07:955][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.04.22-19.40.07:955][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:955][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.04.22-19.40.07:955][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2022.04.22-19.40.07:956][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.04.22-19.40.07:956][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:956][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.04.22-19.40.07:956][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2022.04.22-19.40.07:956][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.04.22-19.40.07:957][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:957][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.04.22-19.40.07:957][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.04.22-19.40.07:957][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.04.22-19.40.07:957][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:957][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.04.22-19.40.07:957][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2022.04.22-19.40.07:958][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.22-19.40.07:958][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:958][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.04.22-19.40.07:958][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2022.04.22-19.40.07:958][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.22-19.40.07:958][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:958][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.04.22-19.40.07:958][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2022.04.22-19.40.07:959][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.04.22-19.40.07:959][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:959][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.04.22-19.40.07:959][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
+[2022.04.22-19.40.07:960][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.04.22-19.40.07:960][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:960][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.04.22-19.40.07:960][  0]LogPakFile: OnPakFileMounted2Time == 0.000042
+[2022.04.22-19.40.07:960][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2022.04.22-19.40.07:960][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:960][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2022.04.22-19.40.07:960][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
+[2022.04.22-19.40.07:961][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.04.22-19.40.07:961][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:961][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.04.22-19.40.07:961][  0]LogPakFile: OnPakFileMounted2Time == 0.000045
+[2022.04.22-19.40.07:962][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.22-19.40.07:962][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:962][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.04.22-19.40.07:962][  0]LogPakFile: OnPakFileMounted2Time == 0.000047
+[2022.04.22-19.40.07:962][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.04.22-19.40.07:962][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.22-19.40.07:962][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.04.22-19.40.07:962][  0]LogPakFile: OnPakFileMounted2Time == 0.000048
+[2022.04.22-19.40.07:994][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.04.22-19.40.07:995][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2022.04.22-19.40.08:035][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.04.22-19.40.08:036][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.04.22-19.40.08:040][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.04.22-19.40.08:131][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2022.04.22-19.40.08:219][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.04.22-19.40.08:219][  0]LogLoad: (Engine Initialization) Total time: 8.73 seconds
+[2022.04.22-19.40.08:219][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.04.22-19.40.08:220][  0]LogInit: First time updating LLM stats...
+[2022.04.22-19.40.08:248][  0]LogAssetRegistry: Asset discovery search completed in 5.5139 seconds
+[2022.04.22-19.40.08:250][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2022.04.22-19.40.08:271][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.04.22-19.40.17:358][963]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Dev/WitchIsWitch/WitchIsWitch/Source/WitchIsWitch/WIWGameMode.h'
+[2022.04.22-19.40.17:464][963]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Dev/WitchIsWitch/WitchIsWitch/Source/WitchIsWitch/WIWGameMode.cpp'
+[2022.04.22-19.42.47:656][756]LogLiveCoding: Display:    Creating library C:\Dev\WitchIsWitch\WitchIsWitch\Binaries\Win64\UE4Editor-WitchIsWitch.exe.lib and object C:\Dev\WitchIsWitch\WitchIsWitch\Binaries\Win64\UE4Editor-WitchIsWitch.exe.exp
+[2022.04.22-19.42.49:816][933]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.04.22-19.42.51:539][ 93]LogSlate: Window 'Project Settings' being destroyed
+[2022.04.22-19.42.57:588][788]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.22-19.43.14:081][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.04.22-19.44.01:272][351]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.04.22-19.44.01:280][351]LogContentBrowser: Creating deferred item: NewWorld
+[2022.04.22-19.44.04:856][767]LogContentBrowser: Attempting asset rename: NewWorld -> L_Entry
+[2022.04.22-19.44.04:863][767]LogContentBrowser: End creating deferred item NewWorld
+[2022.04.22-19.44.08:652][172]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.04.22-19.44.08:660][172]LogContentBrowser: Creating deferred item: NewWorld
+[2022.04.22-19.44.16:281][ 76]LogContentBrowser: Attempting asset rename: NewWorld -> L_MainMenu
+[2022.04.22-19.44.16:288][ 76]LogContentBrowser: End creating deferred item NewWorld
+[2022.04.22-19.44.18:298][290]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.04.22-19.44.18:306][290]LogContentBrowser: Creating deferred item: NewWorld
+[2022.04.22-19.44.20:134][503]LogContentBrowser: Attempting asset rename: NewWorld -> L_Game
+[2022.04.22-19.44.20:142][503]LogContentBrowser: End creating deferred item NewWorld
+[2022.04.22-19.44.25:177][ 46]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.04.22-19.44.25:202][ 46]LogContentBrowser: Creating deferred item: NewFolder
+[2022.04.22-19.44.48:998][893]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
+[2022.04.22-19.44.48:999][893]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.22-19.44.56:760][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/L_Entry" FILE="../../../../../Dev/WitchIsWitch/WitchIsWitch/Content/Levels/L_Entry.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.22-19.44.56:767][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.04.22-19.44.56:769][638]LogSavePackage: Moving '../../../../../Dev/WitchIsWitch/WitchIsWitch/Saved/L_Entry4387E8464C819209221CEA9709FB77D3.tmp' to '../../../../../Dev/WitchIsWitch/WitchIsWitch/Content/Levels/L_Entry.umap'
+[2022.04.22-19.44.56:769][638]LogFileHelpers: Saving map 'L_Entry' took 0.009
+[2022.04.22-19.44.56:770][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/L_Game" FILE="../../../../../Dev/WitchIsWitch/WitchIsWitch/Content/Levels/L_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.22-19.44.56:774][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.04.22-19.44.56:775][638]LogSavePackage: Moving '../../../../../Dev/WitchIsWitch/WitchIsWitch/Saved/L_GameF55530A84CCBB8A7132DCA967AEA7E55.tmp' to '../../../../../Dev/WitchIsWitch/WitchIsWitch/Content/Levels/L_Game.umap'
+[2022.04.22-19.44.56:776][638]LogFileHelpers: Saving map 'L_Game' took 0.006
+[2022.04.22-19.44.56:776][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/L_MainMenu" FILE="../../../../../Dev/WitchIsWitch/WitchIsWitch/Content/Levels/L_MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.22-19.44.56:780][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.04.22-19.44.56:782][638]LogSavePackage: Moving '../../../../../Dev/WitchIsWitch/WitchIsWitch/Saved/L_MainMenu08F1F1914FBC4BC85C2968878D81C0CB.tmp' to '../../../../../Dev/WitchIsWitch/WitchIsWitch/Content/Levels/L_MainMenu.umap'
+[2022.04.22-19.44.56:782][638]LogFileHelpers: Saving map 'L_MainMenu' took 0.006
+[2022.04.22-19.44.56:846][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.04.22-19.44.56:850][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.04.22-19.44.56:853][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.04.22-19.44.56:866][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.04.22-19.44.56:869][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.04.22-19.44.56:894][638]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.22-19.44.56:895][638]LogContentValidation: Display: Validating World /Game/Levels/L_MainMenu.L_MainMenu
+[2022.04.22-19.44.56:895][638]LogContentValidation: Display: Validating World /Game/Levels/L_Entry.L_Entry
+[2022.04.22-19.44.56:895][638]LogContentValidation: Display: Validating World /Game/Levels/L_Game.L_Game
+[2022.04.22-19.45.11:701][340]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.04.22-19.45.11:721][340]LogContentBrowser: Creating deferred item: NewFolder
+[2022.04.22-19.45.14:369][651]LogContentBrowser: Attempting asset rename: NewFolder -> Gameplay
+[2022.04.22-19.45.14:369][651]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.22-19.45.17:759][933]LogMetaData: Removing '/Game/Gameplay/BP_Character.BP_Character:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Character.PackageMetaData'
+[2022.04.22-19.45.17:759][933]LogMetaData: Removing '/Game/Gameplay/BP_Character.BP_Character_C' ref from Metadata '/Game/BP_Character.PackageMetaData'
+[2022.04.22-19.45.17:759][933]LogMetaData: Removing '/Game/Gameplay/BP_Character.BP_Character:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP_Character.PackageMetaData'
+[2022.04.22-19.45.17:759][933]LogMetaData: Removing '/Game/Gameplay/BP_Character.BP_Character:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP_Character.PackageMetaData'
+[2022.04.22-19.45.17:759][933]LogMetaData: Removing '/Game/Gameplay/BP_Character.BP_Character:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP_Character.PackageMetaData'
+[2022.04.22-19.45.17:759][933]LogMetaData: Removing '/Game/Gameplay/BP_Character.SKEL_BP_Character_C:ReceiveBeginPlay' ref from Metadata '/Game/BP_Character.PackageMetaData'
+[2022.04.22-19.45.17:760][933]LogMetaData: Removing '/Game/Gameplay/BP_Character.SKEL_BP_Character_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BP_Character.PackageMetaData'
+[2022.04.22-19.45.17:760][933]LogMetaData: Removing '/Game/Gameplay/BP_Character.SKEL_BP_Character_C:ReceiveTick' ref from Metadata '/Game/BP_Character.PackageMetaData'
+[2022.04.22-19.45.17:760][933]LogMetaData: Removing '/Game/Gameplay/BP_Character.SKEL_BP_Character_C:UserConstructionScript' ref from Metadata '/Game/BP_Character.PackageMetaData'
+[2022.04.22-19.45.17:760][933]LogMetaData: Removing '/Game/Gameplay/BP_Character.SKEL_BP_Character_C' ref from Metadata '/Game/BP_Character.PackageMetaData'
+[2022.04.22-19.45.17:760][933]LogMetaData: Removing '/Game/Gameplay/BP_Door.BP_Door:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Door.PackageMetaData'
+[2022.04.22-19.45.17:760][933]LogMetaData: Removing '/Game/Gameplay/BP_Door.BP_Door_C' ref from Metadata '/Game/BP_Door.PackageMetaData'
+[2022.04.22-19.45.17:760][933]LogMetaData: Removing '/Game/Gameplay/BP_Door.BP_Door:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP_Door.PackageMetaData'
+[2022.04.22-19.45.17:760][933]LogMetaData: Removing '/Game/Gameplay/BP_Door.BP_Door:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP_Door.PackageMetaData'
+[2022.04.22-19.45.17:760][933]LogMetaData: Removing '/Game/Gameplay/BP_Door.BP_Door:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP_Door.PackageMetaData'
+[2022.04.22-19.45.17:761][933]LogMetaData: Removing '/Game/Gameplay/BP_Door.SKEL_BP_Door_C:ReceiveBeginPlay' ref from Metadata '/Game/BP_Door.PackageMetaData'
+[2022.04.22-19.45.17:761][933]LogMetaData: Removing '/Game/Gameplay/BP_Door.SKEL_BP_Door_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BP_Door.PackageMetaData'
+[2022.04.22-19.45.17:761][933]LogMetaData: Removing '/Game/Gameplay/BP_Door.SKEL_BP_Door_C:ReceiveTick' ref from Metadata '/Game/BP_Door.PackageMetaData'
+[2022.04.22-19.45.17:761][933]LogMetaData: Removing '/Game/Gameplay/BP_Door.SKEL_BP_Door_C:UserConstructionScript' ref from Metadata '/Game/BP_Door.PackageMetaData'
+[2022.04.22-19.45.17:761][933]LogMetaData: Removing '/Game/Gameplay/BP_Door.SKEL_BP_Door_C' ref from Metadata '/Game/BP_Door.PackageMetaData'
+[2022.04.22-19.45.17:793][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/BP_Character" FILE="../../../../../Dev/WitchIsWitch/WitchIsWitch/Content/Gameplay/BP_Character.uasset" SILENT=true
+[2022.04.22-19.45.17:797][933]LogSavePackage: Moving '../../../../../Dev/WitchIsWitch/WitchIsWitch/Saved/BP_CharacterAE84308644C86FE8FF9CCD919B31473F.tmp' to '../../../../../Dev/WitchIsWitch/WitchIsWitch/Content/Gameplay/BP_Character.uasset'
+[2022.04.22-19.45.17:798][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/BP_Door" FILE="../../../../../Dev/WitchIsWitch/WitchIsWitch/Content/Gameplay/BP_Door.uasset" SILENT=true
+[2022.04.22-19.45.17:801][933]LogSavePackage: Moving '../../../../../Dev/WitchIsWitch/WitchIsWitch/Saved/BP_DoorBAF2E6CA4F996AC6ACF58DAF2CC0CDB9.tmp' to '../../../../../Dev/WitchIsWitch/WitchIsWitch/Content/Gameplay/BP_Door.uasset'
+[2022.04.22-19.45.17:874][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.04.22-19.45.17:879][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.04.22-19.45.17:886][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.04.22-19.45.17:889][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.04.22-19.45.17:946][933]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.22-19.45.17:946][933]LogContentValidation: Display: Validating Blueprint /Game/Gameplay/BP_Door.BP_Door
+[2022.04.22-19.45.17:946][933]LogContentValidation: Display: Validating Blueprint /Game/Gameplay/BP_Character.BP_Character
+[2022.04.22-19.45.18:811][ 17]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.04.22-19.45.18:827][ 17]LogContentBrowser: Creating deferred item: NewFolder
+[2022.04.22-19.45.24:418][678]LogContentBrowser: Attempting asset rename: NewFolder -> Assets
+[2022.04.22-19.45.24:418][678]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.22-19.45.28:905][184]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.22-19.45.30:983][184]LogSlate: Window 'Save Level As' being destroyed
+[2022.04.22-19.45.34:474][483]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.04.22-19.45.40:882][ 90]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.04.22-19.45.47:190][786]Running C:/Epic/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Dev/WitchIsWitch/WitchIsWitch/WitchIsWitch.uproject" -game -rocket -progress
+[2022.04.22-19.45.47:495][786]Discovering modules, targets and source code for project...
+[2022.04.22-19.45.48:603][786]Binding IntelliSense data...
+[2022.04.22-19.45.50:533][786]Binding IntelliSense data... 100%
+[2022.04.22-19.45.50:533][786]Writing project files...
+[2022.04.22-19.45.53:259][786]Writing project files... 100%
+[2022.04.22-19.45.54:619][786]LogSlate: Window 'Message' being destroyed
+[2022.04.22-19.45.54:623][786]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'WIWHUD', however you must recompile the 'WitchIsWitch' module before it will appear in the Content Browser. Adding classes dynamically is not allowed with Live Coding enabled.
+
+Would you like to open the Output Log to see more details?
+[2022.04.22-19.45.54:676][786]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.04.22-19.45.54:682][786]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.04.22-19.46.27:890][625]Running C:/Epic/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Dev/WitchIsWitch/WitchIsWitch/WitchIsWitch.uproject" -game -rocket -progress
+[2022.04.22-19.46.28:194][625]Discovering modules, targets and source code for project...
+[2022.04.22-19.46.29:301][625]Binding IntelliSense data...
+[2022.04.22-19.46.31:033][625]Binding IntelliSense data... 100%
+[2022.04.22-19.46.31:033][625]Writing project files...
+[2022.04.22-19.46.33:752][625]Writing project files... 100%
+[2022.04.22-19.46.35:066][625]LogSlate: Window 'Message' being destroyed
+[2022.04.22-19.46.35:070][625]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'WIWOverlay', however you must recompile the 'WitchIsWitch' module before it will appear in the Content Browser. Adding classes dynamically is not allowed with Live Coding enabled.
+
+Would you like to open the Output Log to see more details?
+[2022.04.22-19.46.35:073][625]LogSlate: Window 'Add C++ Class' being destroyed

@@ -7,3 +7,13 @@ C:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatR
 C:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 C:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
 C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Inc\WitchIsWitch\WIWGameMode.generated.h
+C:\Dev\WitchIsWitch\WitchIsWitch\Source\WitchIsWitch\WIWPlayerController.h
+C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Inc\WitchIsWitch\WIWPlayerController.generated.h
+C:\Dev\WitchIsWitch\WitchIsWitch\Source\WitchIsWitch\WIWCharacter.h
+C:\Epic\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Epic\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Epic\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Inc\WitchIsWitch\WIWCharacter.generated.h
