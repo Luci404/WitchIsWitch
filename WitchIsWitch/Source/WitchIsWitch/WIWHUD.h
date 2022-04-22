@@ -6,12 +6,8 @@
 #include "GameFramework/HUD.h"
 #include "WIWHUD.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class WITCHISWITCH_API AWIWHUD : public AHUD
 {
 	GENERATED_BODY()
-	
 };

@@ -3,6 +3,8 @@
 
 #include "WIWPlayerController.h"
 
+#include "WIWOverlay.h"
+#include "WIWOverlay.h"
 #include "WIWInteractable.h"
 #include "WIWPickupable.h"
 
