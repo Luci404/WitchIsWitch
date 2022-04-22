@@ -806,3 +806,61 @@ Error: CDO Constructor (ThumbnailManager): Failed to find /Engine/EditorMeshes/E
 [2022.04.22-19.24.30:366][  0]LogAssetRegistry: Asset discovery search completed in 14.9108 seconds
 [2022.04.22-19.24.30:367][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
 [2022.04.22-19.24.30:368][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.04.22-19.25.39:206][926]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.22-19.25.39:285][926]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.04.22-19.26.28:826][712]Running C:/Epic/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Dev/WitchIsWitch/WitchIsWitch/WitchIsWitch.uproject" -game -rocket -progress
+[2022.04.22-19.26.29:130][712]Discovering modules, targets and source code for project...
+[2022.04.22-19.26.30:338][712]Binding IntelliSense data...
+[2022.04.22-19.26.32:161][712]Binding IntelliSense data... 100%
+[2022.04.22-19.26.32:161][712]Writing project files...
+[2022.04.22-19.26.35:084][712]Writing project files... 100%
+[2022.04.22-19.26.35:219][712]Candidate modules for hot reload:
+[2022.04.22-19.26.35:219][712]  WitchIsWitch
+[2022.04.22-19.26.35:219][712]Launching UnrealBuildTool... [C:/Epic/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=WitchIsWitch,7713 WitchIsWitchEditor Win64 Development -Project="C:/Dev/WitchIsWitch/WitchIsWitch/WitchIsWitch.uproject" "C:/Dev/WitchIsWitch/WitchIsWitch/WitchIsWitch.uproject"  -IgnoreJunk]
+[2022.04.22-19.26.41:009][712]CompilerResultsLog: New page: Compilation - 22. apr. 2022 23.26.41
+[2022.04.22-19.26.41:009][712]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\WitchIsWitch).
+[2022.04.22-19.26.41:009][712]CompilerResultsLog: Creating makefile for WitchIsWitchEditor (no existing makefile)
+[2022.04.22-19.26.41:009][712]CompilerResultsLog: Parsing headers for WitchIsWitchEditor
+[2022.04.22-19.26.41:009][712]CompilerResultsLog:   Running UnrealHeaderTool "C:\Dev\WitchIsWitch\WitchIsWitch\WitchIsWitch.uproject" "C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\WitchIsWitchEditor\Development\WitchIsWitchEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\studentuser\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.22-19.26.41:009][712]CompilerResultsLog: Reflection code generated for WitchIsWitchEditor in 2,8713788 seconds
+[2022.04.22-19.26.41:009][712]CompilerResultsLog: Building WitchIsWitchEditor...
+[2022.04.22-19.26.41:009][712]CompilerResultsLog: Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.22-19.26.41:009][712]CompilerResultsLog: Building 9 actions with 24 processes...
+[2022.04.22-19.26.41:009][712]CompilerResultsLog:   [1/9] WitchIsWitch.cpp
+[2022.04.22-19.26.41:009][712]CompilerResultsLog:   [2/9] WitchIsWitch.init.gen.cpp
+[2022.04.22-19.26.41:009][712]CompilerResultsLog:   [3/9] WitchIsWitchGameModeBase.cpp
+[2022.04.22-19.26.41:009][712]CompilerResultsLog:   [4/9] WIWCharacter.cpp
+[2022.04.22-19.26.41:009][712]CompilerResultsLog:   [5/9] WitchIsWitchGameModeBase.gen.cpp
+[2022.04.22-19.26.41:009][712]CompilerResultsLog:   [6/9] WIWCharacter.gen.cpp
+[2022.04.22-19.26.41:009][712]CompilerResultsLog:   [7/9] UE4Editor-WitchIsWitch-7713.lib
+[2022.04.22-19.26.41:009][712]CompilerResultsLog:      Creating library C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\UE4Editor-WitchIsWitch-7713.lib and object C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\UE4Editor-WitchIsWitch-7713.exp
+[2022.04.22-19.26.41:009][712]CompilerResultsLog:   [8/9] UE4Editor-WitchIsWitch-7713.dll
+[2022.04.22-19.26.41:009][712]CompilerResultsLog:      Creating library C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\UE4Editor-WitchIsWitch-7713.suppressed.lib and object C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\UE4Editor-WitchIsWitch-7713.suppressed.exp
+[2022.04.22-19.26.41:009][712]CompilerResultsLog:   [9/9] WitchIsWitchEditor.target
+[2022.04.22-19.26.41:009][712]CompilerResultsLog: Total time in Parallel executor: 1,37 seconds
+[2022.04.22-19.26.41:009][712]CompilerResultsLog: Total execution time: 5,72 seconds
+[2022.04.22-19.26.41:009][712]LogMainFrame: MainFrame: Module compiling took 5.796 seconds
+[2022.04.22-19.26.41:027][712]LogClass: Could not find existing class WIWCharacter in package /Script/WitchIsWitch for HotReload, assuming new class
+[2022.04.22-19.26.41:028][712]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WitchIsWitch' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.04.22-19.26.41:030][712]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.04.22-19.26.41:068][712]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0078 seconds. Added 3603 classes and 861 folders.
+[2022.04.22-19.26.41:068][712]Display: HotReload took  5.9s.
+[2022.04.22-19.26.41:080][712]Warning: HotReload operation took  5.9s.
+[2022.04.22-19.26.42:282][712]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.04.22-19.26.42:287][712]LogHotReload: New module detected: UE4Editor-WitchIsWitch-7713.dll
+[2022.04.22-19.26.42:329][713]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.22-19.26.42:340][713]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WitchIsWitch' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.04.22-19.26.42:341][713]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.04.22-19.26.42:351][713]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0083 seconds. Added 3603 classes and 861 folders.
+[2022.04.22-19.26.42:354][713]Display: HotReload took  0.0s.
+[2022.04.22-19.26.52:529][363]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.04.22-19.26.56:256][363]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.04.22-19.26.56:261][363]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.04.22-19.26.56:268][363]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.04.22-19.26.59:621][755]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Character
+[2022.04.22-19.26.59:625][755]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.04.22-19.27.04:891][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.04.22-19.27.04:905][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Character" FILE="../../../../../Dev/WitchIsWitch/WitchIsWitch/Content/BP_Character.uasset" SILENT=true
+[2022.04.22-19.27.04:910][143]LogSavePackage: Moving '../../../../../Dev/WitchIsWitch/WitchIsWitch/Saved/BP_Character6A768D0F417992C35F882593DE4A8CD9.tmp' to '../../../../../Dev/WitchIsWitch/WitchIsWitch/Content/BP_Character.uasset'
+[2022.04.22-19.27.04:924][143]AssetCheck: New page: Asset Save: BP_Character
+[2022.04.22-19.27.04:924][143]LogContentValidation: Display: Validating Blueprint /Game/BP_Character.BP_Character
