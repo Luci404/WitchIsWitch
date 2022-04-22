@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\WitchIsWitch.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{52BBCE11-3D1F-45B1-B418-47A71CE9259D}</UniqueIdentifier>
+      <UniqueIdentifier>{FBA3E6A9-D834-4AD9-B9B3-9987521519FA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\WitchIsWitch.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D8DED7CE-99FF-4F2B-8B5C-1C9D3FCA2F88}</UniqueIdentifier>
+      <UniqueIdentifier>{345A0619-11D3-4D93-8865-78F3EFF20C70}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\WitchIsWitch">
-      <UniqueIdentifier>{F6CEB134-87DD-4A87-B258-57C36B57278C}</UniqueIdentifier>
+      <UniqueIdentifier>{C43ECEFB-E38F-42DB-93B2-931645EC6507}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\WitchIsWitch\WitchIsWitch.Build.cs">
       <Filter>Source\WitchIsWitch</Filter>
@@ -45,6 +45,12 @@
       <Filter>Source\WitchIsWitch</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\WitchIsWitch\WIWCharacter.h">
+      <Filter>Source\WitchIsWitch</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WitchIsWitch\WIWInteractable.cpp">
+      <Filter>Source\WitchIsWitch</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WitchIsWitch\WIWInteractable.h">
       <Filter>Source\WitchIsWitch</Filter>
     </ClInclude>
   </ItemGroup>

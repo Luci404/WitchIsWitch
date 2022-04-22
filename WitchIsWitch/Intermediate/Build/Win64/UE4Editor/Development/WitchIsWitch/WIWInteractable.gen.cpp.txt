@@ -1,0 +1,5 @@
+C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\Definitions.WitchIsWitch.h
+C:\Epic\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Epic\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Dev\WitchIsWitch\WitchIsWitch\Source\WitchIsWitch/WIWInteractable.h
+C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Inc\WitchIsWitch\WIWInteractable.generated.h
