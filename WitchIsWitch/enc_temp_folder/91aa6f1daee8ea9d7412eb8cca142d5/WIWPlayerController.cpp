@@ -3,8 +3,6 @@
 
 #include "WIWPlayerController.h"
 
-#include "WIWOverlay.h"
-#include "WIWOverlay.h"
 #include "WIWInteractable.h"
 #include "WIWPickupable.h"
 
@@ -44,4 +42,5 @@ void AWIWPlayerController::Tick(float deltaTime)
 	}
 
 	HoveredActor = hitResult.bBlockingHit ? hitResult.Actor : nullptr;
+	UE_LOG(LogTemp, Warning, TEXT("HIT: %s"), IsValid(HoveredActor.Get()) ? *HoveredActor->GetName() : TEXT("NONE"));
 }

@@ -14,8 +14,10 @@ class WITCHISWITCH_API UWIWOverlay : public UUserWidget
 	GENERATED_BODY()
 
 public:
-	void NativeConstruct();
-	void Tick(float deltaTime);
+	void NativeConstruct() override;
+
+	UFUNCTION(BlueprintCallable)
+	void JankyTick();
 
 	void SetInteractVisibility(bool visible);
 	void SetPickupVisibility(bool visible);

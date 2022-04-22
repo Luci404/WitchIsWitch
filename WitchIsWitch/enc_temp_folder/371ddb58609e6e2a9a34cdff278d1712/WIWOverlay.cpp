@@ -17,6 +17,7 @@ void UWIWOverlay::NativeConstruct()
 
 void UWIWOverlay::JankyTick()
 {
+	UE_LOG(LogTemp, Warning, TEXT("WTF..."));
 	UWorld* world = GetWorld();
 	AWIWPlayerController* playerController = world->GetFirstPlayerController<AWIWPlayerController>();
 	if (IsValid(playerController))

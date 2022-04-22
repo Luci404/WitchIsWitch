@@ -21,7 +21,13 @@ void AWIWPlayerController::SetupInputComponent()
 
 void AWIWPlayerController::OnInteractPressed()
 {
+	if (HoveredActor != nullptr && HoveredActor->GetClass()->ImplementsInterface(UWIWInteractable::StaticClass()))
+	{
+	}
+	else if (HoveredActor != nullptr && HoveredActor->GetClass()->ImplementsInterface(UWIWPickupable::StaticClass()))
+	{
 
+	}
 }
 
 void AWIWPlayerController::Tick(float deltaTime)
