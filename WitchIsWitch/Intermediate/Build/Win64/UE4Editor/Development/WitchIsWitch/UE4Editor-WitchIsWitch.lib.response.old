@@ -14,6 +14,7 @@
 "C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\WitchIsWitch.init.gen.cpp.obj"
 "C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\WitchIsWitchGameModeBase.gen.cpp.obj"
 "C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\WIWCharacter.gen.cpp.obj"
+"C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\WIWInteractable.gen.cpp.obj"
 "C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\Default.rc2.res"
 /OUT:"C:\Dev\WitchIsWitch\WitchIsWitch\Intermediate\Build\Win64\UE4Editor\Development\WitchIsWitch\UE4Editor-WitchIsWitch.lib"
 /INCLUDE:IMPLEMENT_MODULE_WitchIsWitch
