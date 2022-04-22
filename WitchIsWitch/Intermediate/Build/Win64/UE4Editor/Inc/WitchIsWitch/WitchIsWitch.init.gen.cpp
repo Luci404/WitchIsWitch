@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeWitchIsWitch_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xCC97EC74,
+				0x97A7EE59,
 				0xC48FBFAC,
 				METADATA_PARAMS(nullptr, 0)
 			};

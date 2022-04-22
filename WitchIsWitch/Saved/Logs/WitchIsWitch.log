@@ -821,3 +821,5 @@ Error: CDO Constructor (ThumbnailManager): Failed to find /Engine/EditorMeshes/E
 [2022.04.22-20.20.51:682][690]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
 [2022.04.22-20.21.01:080][627]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
 [2022.04.22-20.21.01:080][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.22-20.26.49:509][533]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.04.22-20.26.54:314][ 33]LogSlate: Window 'Project Settings' being destroyed

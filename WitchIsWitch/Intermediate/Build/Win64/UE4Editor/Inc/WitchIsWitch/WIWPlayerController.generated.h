@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define WITCHISWITCH_WIWPlayerController_generated_h
 
 #define WitchIsWitch_Source_WitchIsWitch_WIWPlayerController_h_15_SPARSE_DATA
-#define WitchIsWitch_Source_WitchIsWitch_WIWPlayerController_h_15_RPC_WRAPPERS
-#define WitchIsWitch_Source_WitchIsWitch_WIWPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define WitchIsWitch_Source_WitchIsWitch_WIWPlayerController_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnInteractPressed);
+
+
+#define WitchIsWitch_Source_WitchIsWitch_WIWPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnInteractPressed);
+
+
 #define WitchIsWitch_Source_WitchIsWitch_WIWPlayerController_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWIWPlayerController(); \

@@ -13,5 +13,11 @@ UCLASS()
 class WITCHISWITCH_API AWIWPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
+
+protected:
+	void SetupInputComponent() override;
+
+private:
+	UFUNCTION()
+	void OnInteractPressed();
 };
