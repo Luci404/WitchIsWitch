@@ -20,6 +20,9 @@ public:
 
 	void BeginPlay() override;
 
+	UFUNCTION(BlueprintCallable)
+	AWIWCharacter* GetInteractor();
+
 	void Pickup_Implementation(AWIWCharacter* interactor);
 	void Drop_Implementation();
 	void Reset_Implementation();

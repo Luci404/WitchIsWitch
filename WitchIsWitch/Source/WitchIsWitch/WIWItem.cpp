@@ -27,6 +27,11 @@ void AWIWItem::BeginPlay()
 	}
 }
 
+AWIWCharacter* AWIWItem::GetInteractor()
+{
+	return m_Interactor;
+}
+
 void AWIWItem::Pickup_Implementation(AWIWCharacter* interactor)
 {
 	Mesh->SetVisibility(interactor->IsLocallyControlled());
