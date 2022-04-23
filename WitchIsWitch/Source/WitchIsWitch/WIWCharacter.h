@@ -20,26 +20,27 @@ public:
 public:	
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	
+	void BeginPlay() override;
 	void Tick(float deltaTime) override;
 
 	UFUNCTION()
 	void OnInteractPressed();
 
-	void Local_Interact(AActor* interactor, AActor* interactionActor);
+	void Local_Interact(AActor* interactionActor);
 
 	UFUNCTION(Server, Reliable)
-	void Server_Interact(AActor* interactor, AActor* interactionActor);
+	void Server_Interact(uint16 interactorID, AActor* interactionActor);
 
 	UFUNCTION(NetMulticast, Reliable)
-	void Multicast_Interact(AActor* interactor, AActor* interactionActor);
+	void Multicast_Interact(uint16 interactorID, AActor* interactionActor);
 
-	void Local_Pickup(AActor* interactor, AActor* interactionActor);
+	void Local_Pickup(AActor* interactionActor);
 	
 	UFUNCTION(Server, Reliable)
-	void Server_Pickup(AActor* interactor, AActor* interactionActor);
+	void Server_Pickup(uint16 interactorID, AActor* interactionActor);
 
 	UFUNCTION(NetMulticast, Reliable)
-	void Multicast_Pickup(AActor* interactor, AActor* interactionActor);
+	void Multicast_Pickup(uint16 interactorID, AActor* interactionActor);
 
 public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
@@ -52,4 +53,7 @@ public:
 	float InteractionDistance = 500.0f;
 
 	AActor* HoveredActor;
+
+private:
+	uint16 m_PlayerID;
 };

@@ -25,6 +25,13 @@ void AWIWCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 	PlayerInputComponent->BindAction("Interact", EInputEvent::IE_Pressed, this, &AWIWCharacter::OnInteractPressed);
 }
 
+void AWIWCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+
+	m_PlayerID = HasAuthority() ? 0 : 1;
+}
+
 void AWIWCharacter::Tick(float deltaTime)
 {
 	Super::Tick(deltaTime);
@@ -51,58 +58,56 @@ void AWIWCharacter::OnInteractPressed()
 {
 	if (HoveredActor != nullptr && HoveredActor->GetClass()->ImplementsInterface(UWIWInteractable::StaticClass()))
 	{
-		Local_Interact(this, HoveredActor);
-		Server_Interact(this, HoveredActor);
+		Local_Interact(HoveredActor);
+		Server_Interact(m_PlayerID, HoveredActor);
 	}
 	else if (HoveredActor != nullptr && HoveredActor->GetClass()->ImplementsInterface(UWIWPickupable::StaticClass()))
 	{
-		Local_Pickup(this, HoveredActor);
-		Server_Pickup(this, HoveredActor);
+		Local_Pickup(HoveredActor);
+		Server_Pickup(m_PlayerID, HoveredActor);
 	}
 }
 
-void AWIWCharacter::Local_Interact(AActor* interactor, AActor* interactionActor)
+void AWIWCharacter::Local_Interact(AActor* interactionActor)
 {
 	if (interactionActor != nullptr && interactionActor->GetClass()->ImplementsInterface(UWIWInteractable::StaticClass()))
 	{
-		AWIWCharacter* character = Cast<AWIWCharacter>(interactor);
-		if (ensure(character))
-		{
-			IWIWInteractable::Execute_Interact(interactionActor, character);
-		}
+		IWIWInteractable::Execute_Interact(interactionActor, this);
 	}
 }
 
-void AWIWCharacter::Server_Interact_Implementation(AActor* interactor, AActor* interactionActor)
+void AWIWCharacter::Server_Interact_Implementation(uint16 interactorID, AActor* interactionActor)
 {
-	Multicast_Interact(interactor, interactionActor);
+	Multicast_Interact(interactorID, interactionActor);
 }
 
-void AWIWCharacter::Multicast_Interact_Implementation(AActor* interactor, AActor* interactionActor)
+void AWIWCharacter::Multicast_Interact_Implementation(uint16 interactorID, AActor* interactionActor)
 {
-	if (this == interactor) return;
-	Local_Interact(interactor, interactionActor);
+	if (interactorID == m_PlayerID) return;
+	Local_Interact(interactionActor);
 }
 
-void AWIWCharacter::Local_Pickup(AActor* interactor, AActor* interactionActor)
+void AWIWCharacter::Local_Pickup(AActor* interactionActor)
 {
+	UE_LOG(LogTemp, Warning, TEXT("AWIWCharacter::Local_Pickup(), HasAuthority: %s"), HasAuthority() ? TEXT("true") : TEXT("false"));
+
 	if (interactionActor != nullptr && interactionActor->GetClass()->ImplementsInterface(UWIWPickupable::StaticClass()))
 	{
-		AWIWCharacter* character = Cast<AWIWCharacter>(interactor);
-		if (ensure(character))
-		{
-			IWIWPickupable::Execute_Pickup(interactionActor, character);
-		}
+		IWIWPickupable::Execute_Pickup(interactionActor, this);
 	}
 }
 
-void AWIWCharacter::Server_Pickup_Implementation(AActor* interactor, AActor* interactionActor)
+void AWIWCharacter::Server_Pickup_Implementation(uint16 interactorID, AActor* interactionActor)
 {
-	Multicast_Pickup(interactor, interactionActor);
+	UE_LOG(LogTemp, Warning, TEXT("AWIWCharacter::Server_Pickup(), HasAuthority: %s"), HasAuthority() ? TEXT("true") : TEXT("false"));
+
+	Multicast_Pickup(interactorID, interactionActor);
 }
 
-void AWIWCharacter::Multicast_Pickup_Implementation(AActor* interactor, AActor* interactionActor)
+void AWIWCharacter::Multicast_Pickup_Implementation(uint16 interactorID, AActor* interactionActor)
 {
-	if (this == interactor) return;
-	Local_Pickup(interactor, interactionActor);
+	UE_LOG(LogTemp, Warning, TEXT("AWIWCharacter::Multicast_Pickup(), HasAuthority: %s"), HasAuthority() ? TEXT("true") : TEXT("false"));
+
+	if (interactorID == m_PlayerID) return;
+	Local_Pickup(interactionActor);
 }
