@@ -3,6 +3,8 @@
 
 #include "WIWCharacter.h"
 
+#include "WIWItem.h"
+
 #include "Components/SceneComponent.h"
 
 // Sets default values

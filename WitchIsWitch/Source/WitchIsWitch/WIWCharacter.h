@@ -7,6 +7,7 @@
 #include "WIWCharacter.generated.h"
 
 class USceneComponent;
+class AWIWItem;
 
 UCLASS()
 class WITCHISWITCH_API AWIWCharacter : public ACharacter
@@ -31,4 +32,7 @@ public:
 public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	USceneComponent* HandLocator;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	AWIWItem* HeldItem;
 };

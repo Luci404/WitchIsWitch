@@ -19,18 +19,16 @@ void AWIWItem::BeginPlay()
 
 void AWIWItem::Pickup_Implementation(AWIWCharacter* interactor)
 {
-	UE_LOG(LogTemp, Warning, TEXT("AWIWItem::Pickup"));
-
+	UE_LOG(LogTemp, Warning, TEXT("This would be nice..."));
 	m_Interactor = interactor;
 	m_Interactor->HeldItem = this;
-	RootComponent->AttachToComponent(m_Interactor->HandLocator, FAttachmentTransformRules::SnapToTargetIncludingScale);
+	AttachToComponent(m_Interactor->HandLocator, FAttachmentTransformRules::SnapToTargetIncludingScale);
 }
 
 void AWIWItem::Reset_Implementation()
 {
-	RootComponent->DetachFromComponent(FDetachmentTransformRules::KeepWorldTransform);
 	m_Interactor->HeldItem = nullptr;
-	m_Interactor = nullptr;
-	
+	m_Interactor->HandLocator->DetachFromComponent(FDetachmentTransformRules::KeepWorldTransform);
 	SetActorTransform(m_InitialTransform);
+	m_Interactor = nullptr;
 }
