@@ -30,7 +30,7 @@ void AWIWItem::BeginPlay()
 // Pickup
 void AWIWItem::Pickup_Implementation(AWIWCharacter* interactor)
 {
-	Mesh->SetVisibility(interactor->IsLocallyControlled());
+	Mesh->SetVisibility(!interactor->IsLocallyControlled());
 	Mesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	m_Interactor = interactor;
 	m_Interactor->HeldItem = this;
