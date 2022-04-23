@@ -26,6 +26,9 @@ public:
 	UFUNCTION()
 	void OnInteractPressed();
 
+	UFUNCTION()
+	void OnUsePressed();
+
 	UFUNCTION(BlueprintCallable)
 	int GetPlayerID() const;
 
@@ -44,6 +47,14 @@ public:
 
 	UFUNCTION(NetMulticast, Reliable)
 	void Multicast_Pickup(uint16 interactorID, AActor* interactionActor);
+
+	void Local_Use();
+
+	UFUNCTION(Server, Reliable)
+	void Server_Use(uint16 interactorID);
+
+	UFUNCTION(NetMulticast, Reliable)
+	void Multicast_Use(uint16 interactorID);
 
 public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)

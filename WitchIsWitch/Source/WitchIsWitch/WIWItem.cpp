@@ -27,7 +27,6 @@ void AWIWItem::BeginPlay()
 	}
 }
 
-// Pickup
 void AWIWItem::Pickup_Implementation(AWIWCharacter* interactor)
 {
 	Mesh->SetVisibility(interactor->IsLocallyControlled());
@@ -37,7 +36,6 @@ void AWIWItem::Pickup_Implementation(AWIWCharacter* interactor)
 	RootComponent->AttachToComponent(m_Interactor->HandLocator, FAttachmentTransformRules::SnapToTargetIncludingScale);
 }
 
-// Drop
 void AWIWItem::Drop_Implementation()
 {
 	RootComponent->DetachFromComponent(FDetachmentTransformRules::KeepWorldTransform);
@@ -47,7 +45,6 @@ void AWIWItem::Drop_Implementation()
 	Mesh->SetVisibility(true);
 }
 
-// Reset
 void AWIWItem::Reset_Implementation()
 {
 	if (IsValid(m_Interactor))
