@@ -48,10 +48,10 @@ void AWIWCharacter::Tick(float deltaTime)
 	UWorld* world = GetWorld();
 	if (ensure(world))
 	{
-		world->LineTraceSingleByChannel(hitResult, StartLocation, EndLocation, ECollisionChannel::ECC_Visibility, FCollisionQueryParams::DefaultQueryParam, FCollisionResponseParams::DefaultResponseParam);
+		world->LineTraceSingleByChannel(hitResult, StartLocation, EndLocation, ECollisionChannel::ECC_GameTraceChannel1, FCollisionQueryParams::DefaultQueryParam, FCollisionResponseParams::DefaultResponseParam);
 	}
 
-	HoveredActor = hitResult.bBlockingHit ? hitResult.Actor.Get() : nullptr;
+	HoveredActor = hitResult.bBlockingHit && !hitResult.Component->ComponentHasTag("InteractBlock") ? hitResult.Actor.Get() : nullptr;
 }
 
 void AWIWCharacter::OnInteractPressed()
