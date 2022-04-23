@@ -5,6 +5,7 @@
 
 #include "WIWInteractable.h"
 #include "WIWPickupable.h"
+#include "WIWCharacter.h"
 
 #include "Blueprint/UserWidget.h"
 
@@ -23,12 +24,19 @@ void AWIWPlayerController::OnInteractPressed()
 {
 	if (HoveredActor != nullptr && HoveredActor->GetClass()->ImplementsInterface(UWIWInteractable::StaticClass()))
 	{
-		//IWIWInteractable::Execute_Interact(HoveredActor.Get());
+		AWIWCharacter* character = GetPawn<AWIWCharacter>();
+		if (ensure(IsValid(character)))
+		{
+			IWIWInteractable::Execute_Interact(HoveredActor.Get(), character);
+		}
 	}
 	else if (HoveredActor != nullptr && HoveredActor->GetClass()->ImplementsInterface(UWIWPickupable::StaticClass()))
 	{
-		IWIWPickupable::Execute_Pickup(HoveredActor.Get());
-
+		AWIWCharacter* character = GetPawn<AWIWCharacter>();
+		if (ensure(IsValid(character)))
+		{
+			IWIWPickupable::Execute_Pickup(HoveredActor.Get(), character);
+		}
 	}
 }
 

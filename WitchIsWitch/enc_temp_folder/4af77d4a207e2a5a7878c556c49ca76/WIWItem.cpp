@@ -37,7 +37,7 @@ void AWIWItem::Reset_Implementation()
 {
 	if (IsValid(m_Interactor))
 	{
-		IWIWPickupable::Execute_Drop(this);
+		Drop();
 	}
 	SetActorTransform(m_InitialTransform);
 }

@@ -8,6 +8,7 @@
 #include "WIWItem.generated.h"
 
 class UStaticMeshComponent;
+class AWIWCharacter;
 
 UCLASS()
 class WITCHISWITCH_API AWIWItem : public AActor, public IWIWPickupable
@@ -17,9 +18,17 @@ class WITCHISWITCH_API AWIWItem : public AActor, public IWIWPickupable
 public:	
 	AWIWItem();
 
-	void Pickup_Implementation();
+	void BeginPlay() override;
+
+	void Pickup_Implementation(AWIWCharacter* interactor);
+	void Drop_Implementation();
+	void Reset_Implementation();
 
 public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UStaticMeshComponent* Mesh;
+
+private:
+	AWIWCharacter* m_Interactor;
+	FTransform m_InitialTransform;
 };
