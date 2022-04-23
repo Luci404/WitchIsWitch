@@ -26,11 +26,18 @@ void AWIWItem::Pickup_Implementation(AWIWCharacter* interactor)
 	RootComponent->AttachToComponent(m_Interactor->HandLocator, FAttachmentTransformRules::SnapToTargetIncludingScale);
 }
 
-void AWIWItem::Reset_Implementation()
+void AWIWItem::Drop_Implementation()
 {
 	RootComponent->DetachFromComponent(FDetachmentTransformRules::KeepWorldTransform);
 	m_Interactor->HeldItem = nullptr;
 	m_Interactor = nullptr;
-	
+}
+
+void AWIWItem::Reset_Implementation()
+{
+	if (IsValid(m_Interactor))
+	{
+		Drop();
+	}
 	SetActorTransform(m_InitialTransform);
 }

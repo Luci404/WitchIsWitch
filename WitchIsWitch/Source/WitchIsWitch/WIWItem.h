@@ -21,6 +21,7 @@ public:
 	void BeginPlay() override;
 
 	void Pickup_Implementation(AWIWCharacter* interactor);
+	void Drop_Implementation();
 	void Reset_Implementation();
 
 public:

@@ -19,5 +19,8 @@ public:
 	void Pickup(AWIWCharacter* interactor);
 	
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void Drop();
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void Reset();
 };
