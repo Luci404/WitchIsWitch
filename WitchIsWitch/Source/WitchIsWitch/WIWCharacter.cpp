@@ -68,6 +68,12 @@ void AWIWCharacter::OnInteractPressed()
 	}
 }
 
+int AWIWCharacter::GetPlayerID() const
+{
+	return static_cast<int>(m_PlayerID);
+}
+
+
 void AWIWCharacter::Local_Interact(AActor* interactionActor)
 {
 	if (interactionActor != nullptr && interactionActor->GetClass()->ImplementsInterface(UWIWInteractable::StaticClass()))

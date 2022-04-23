@@ -26,6 +26,9 @@ public:
 	UFUNCTION()
 	void OnInteractPressed();
 
+	UFUNCTION(BlueprintCallable)
+	int GetPlayerID() const;
+
 	void Local_Interact(AActor* interactionActor);
 
 	UFUNCTION(Server, Reliable)
