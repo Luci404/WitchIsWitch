@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "WIWCharacter.generated.h"
 
+class USceneComponent;
+
 UCLASS()
 class WITCHISWITCH_API AWIWCharacter : public ACharacter
 {
@@ -26,4 +28,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+public:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	USceneComponent* HandLocator;
 };

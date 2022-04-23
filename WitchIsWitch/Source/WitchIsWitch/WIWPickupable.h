@@ -2,6 +2,8 @@
 
 #include "WIWPickupable.generated.h"
 
+class AWIWCharacter;
+
 UINTERFACE(BlueprintType)
 class WITCHISWITCH_API UWIWPickupable : public UInterface
 {
@@ -14,5 +16,8 @@ class WITCHISWITCH_API IWIWPickupable
 
 public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-	void Pickup(); 
+	void Pickup(AWIWCharacter* interactor);
+	
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void Reset();
 };
