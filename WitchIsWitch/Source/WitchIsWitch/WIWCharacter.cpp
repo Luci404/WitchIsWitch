@@ -12,6 +12,7 @@
 AWIWCharacter::AWIWCharacter()
 {
 	PrimaryActorTick.bCanEverTick = true;
+	bReplicates = true;
 
 	HandLocator = CreateDefaultSubobject<USceneComponent>(TEXT("HandLocator"));
 	HandLocator->AttachTo(RootComponent);
@@ -26,6 +27,8 @@ void AWIWCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 
 void AWIWCharacter::Tick(float deltaTime)
 {
+	Super::Tick(deltaTime);
+
 	FVector CameraLocation;
 	FRotator CameraRotation;
 	GetActorEyesViewPoint(CameraLocation, CameraRotation);
