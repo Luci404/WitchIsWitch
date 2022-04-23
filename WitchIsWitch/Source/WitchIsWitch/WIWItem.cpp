@@ -10,22 +10,30 @@ AWIWItem::AWIWItem()
 
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	RootComponent = Mesh;
+
+	bReplicates = true;
 }
 
 void AWIWItem::BeginPlay()
 {
 	m_InitialTransform = GetActorTransform();
+	
+	if (HasAuthority())
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Test"));
+		SetOwner(GetWorld()->GetFirstPlayerController()->GetPawn());
+	}
 }
 
+// Pickup
 void AWIWItem::Pickup_Implementation(AWIWCharacter* interactor)
 {
-	UE_LOG(LogTemp, Warning, TEXT("AWIWItem::Pickup"));
-
 	m_Interactor = interactor;
 	m_Interactor->HeldItem = this;
 	RootComponent->AttachToComponent(m_Interactor->HandLocator, FAttachmentTransformRules::SnapToTargetIncludingScale);
 }
 
+// Drop
 void AWIWItem::Drop_Implementation()
 {
 	RootComponent->DetachFromComponent(FDetachmentTransformRules::KeepWorldTransform);
@@ -33,6 +41,7 @@ void AWIWItem::Drop_Implementation()
 	m_Interactor = nullptr;
 }
 
+// Reset
 void AWIWItem::Reset_Implementation()
 {
 	if (IsValid(m_Interactor))

@@ -15,19 +15,31 @@ class WITCHISWITCH_API AWIWCharacter : public ACharacter
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this character's properties
 	AWIWCharacter();
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	
+	void Tick(float deltaTime) override;
+
+	UFUNCTION()
+	void OnInteractPressed();
+
+	void Local_Interact(AActor* interactor, AActor* interactionActor);
+
+	UFUNCTION(Server, Reliable)
+	void Server_Interact(AActor* interactor, AActor* interactionActor);
+
+	UFUNCTION(NetMulticast, Reliable)
+	void Multicast_Interact(AActor* interactor, AActor* interactionActor);
+
+	void Local_Pickup(AActor* interactor, AActor* interactionActor);
+	
+	UFUNCTION(Server, Reliable)
+	void Server_Pickup(AActor* interactor, AActor* interactionActor);
+
+	UFUNCTION(NetMulticast, Reliable)
+	void Multicast_Pickup(AActor* interactor, AActor* interactionActor);
 
 public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
@@ -35,4 +47,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	AWIWItem* HeldItem;
+
+	UPROPERTY(EditAnywhere)
+	float InteractionDistance = 500.0f;
+
+	AActor* HoveredActor;
 };
