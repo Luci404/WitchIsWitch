@@ -62,7 +62,7 @@ void AWIWCharacter::OnInteractPressed()
 		Local_Interact(HoveredActor);
 		Server_Interact(m_PlayerID, HoveredActor);
 	}
-	else if (HoveredActor != nullptr && HoveredActor->GetClass()->ImplementsInterface(UWIWPickupable::StaticClass()))
+	else if (HoveredActor != nullptr && HeldItem == nullptr && HoveredActor->GetClass()->ImplementsInterface(UWIWPickupable::StaticClass()))
 	{
 		Local_Pickup(HoveredActor);
 		Server_Pickup(m_PlayerID, HoveredActor);
