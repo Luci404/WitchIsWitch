@@ -34,7 +34,8 @@ AWIWCharacter* AWIWItem::GetInteractor()
 
 void AWIWItem::Pickup_Implementation(AWIWCharacter* interactor)
 {
-	Mesh->SetVisibility(interactor->IsLocallyControlled());
+	SetActorHiddenInGame(!interactor->IsLocallyControlled());
+	//Mesh->SetVisibility(interactor->IsLocallyControlled());
 	Mesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	m_Interactor = interactor;
 	m_Interactor->HeldItem = this;
@@ -47,7 +48,9 @@ void AWIWItem::Drop_Implementation()
 	m_Interactor->HeldItem = nullptr;
 	m_Interactor = nullptr;
 	Mesh->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	Mesh->SetVisibility(true);
+	//Mesh->SetVisibility(true);
+	SetActorHiddenInGame(false);
+
 }
 
 void AWIWItem::Reset_Implementation()
