@@ -31,7 +31,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UStaticMeshComponent* Mesh;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	FTransform InitialTransform;
+
 private:
 	AWIWCharacter* m_Interactor;
-	FTransform m_InitialTransform;
 };

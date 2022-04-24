@@ -18,7 +18,7 @@ AWIWItem::AWIWItem()
 
 void AWIWItem::BeginPlay()
 {
-	m_InitialTransform = GetActorTransform();
+	InitialTransform = GetActorTransform();
 	
 	if (HasAuthority())
 	{
@@ -56,5 +56,5 @@ void AWIWItem::Reset_Implementation()
 	{
 		IWIWPickupable::Execute_Drop(this);
 	}
-	SetActorTransform(m_InitialTransform);
+	SetActorTransform(InitialTransform);
 }
